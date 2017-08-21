@@ -1,10 +1,12 @@
 $(document).ready(function()
 {
-	var sections=$("div[class*='slide']");  //Div objects that will be animated
-	var slideBottomPositions=[]; //Bottom sections/positions are the position of the div's bottom relative to the document position
+    var sections=$("div[class*='slide']");  //Div objects that will be animated
+    var slideBottomPositions=[]; //Bottom sections/positions are the position of the div's bottom relative to the document position
     var slideTopPositions=[]; //Top sections/positions are the position of the div's top relative to the document position
     var slideDirection=[];//Has slideRight or slideDown, slideRight=true, slideDown=false	
     var windowHeight=$(window).height();
+    var bottomScreen;
+    var top;//top of the screen
 
 
     //Get the DOM object's positions that will be used to animate
