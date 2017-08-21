@@ -1,0 +1,13 @@
+.slideRight{
+    position:relative;
+    transform:translateX(-100%);
+    opacity:0 !important;
+}
+.slideDown{
+    position:relative;
+    opacity:0 !important;
+    transform:translateY(-50%);
+}
+.slide{
+    transition:opacity 1s, transform 1s, margin 1s, padding 1s !important;
+}
