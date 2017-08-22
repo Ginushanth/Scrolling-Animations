@@ -1,6 +1,8 @@
 # Scrolling-Animations
 The div that is selected to be animated when scrolled will slide right or slide down.
 
+You can download the CSS and js file and reference them in your HTML document to use it.
+
 
 In order to use this animation, in your HTML code you must add a "slide" class to the DIV you want animated. jQuery will use this
 to collect all the DOM objects to animate.
