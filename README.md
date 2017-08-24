@@ -14,7 +14,7 @@ To determine when the animation should be run when scrolling, you must also add 
 'top' means that when the scrollbar passes the top position of the div it will animate
 'bottom' means that when the scrollbar passes the bottom position of the div it will animate.
 
-E.G <div class="slide top slideRight"></div>
+E.G div class="slide top slideRight"
 
 This will slide right when the scrollbar passes the top position of the div.
 
